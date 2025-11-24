@@ -12,6 +12,8 @@ public class TestGeneration {
 
         generation.printBestTree();
 
+        System.out.println();
+
         System.out.print("Top Ten Fitness Values: ");
         ArrayList<GPTree> topTen = generation.getTopTen();
         DecimalFormat df = new DecimalFormat("0.00");
