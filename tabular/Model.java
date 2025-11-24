@@ -21,7 +21,6 @@ public abstract class Model{
      * @return
      */
     public abstract double predict(double[] x);
-
    
 
     /**
