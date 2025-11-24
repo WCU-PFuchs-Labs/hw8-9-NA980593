@@ -12,7 +12,7 @@ public class TestGeneration {
 
         generation.printBestTree();
 
-        System.out.println("Top Ten Fitness Values:");
+        System.out.print("Top Ten Fitness Values: ");
         ArrayList<GPTree> topTen = generation.getTopTen();
         DecimalFormat df = new DecimalFormat("0.00");
         for (int i = 0; i < topTen.size(); i++) {
